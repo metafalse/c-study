@@ -1,9 +1,9 @@
 #include <stdio.h>
 #define ASIZE 15
 
-void selectionsort(int *, int);
 void swap(int *, int *);
 void printarray(int *, int);
+void selectionsort(int *, int);
 
 int main() {
     int iar[ASIZE] = {22, 92, 18, 42, 4, 68, 87, 35, 13, 49, 72, 7, 29, 39, 51};
