@@ -36,7 +36,7 @@ void insertsort(int x[], int n) {
         y = x[k];
         for (i = k - 1; i >= 0 && y < x[i]; i--)
             x[i + 1] = x[i];
-        printf("\nInsertion sort Pass: %d: \n", k);
+        printf("\nInsertion sort Pass: %d:\n", k);
         x[i + 1] = y;
         printarray(x, n);
     }
