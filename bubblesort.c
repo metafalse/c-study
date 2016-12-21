@@ -7,7 +7,6 @@ void bubblesort(int *, int);
 
 int main() {
     int iar[ASIZE] = {22, 92, 18, 42, 4, 68, 87, 35, 13, 49, 72, 7, 29, 39, 51};
-    int increments[] = {5,3,1}, numinc = 3;
     printf("Data in items in original order\n");
     printarray(iar, ASIZE);
     bubblesort(iar, ASIZE);
