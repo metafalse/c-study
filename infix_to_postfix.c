@@ -17,7 +17,7 @@ typedef struct stack {
     char items[MAXCOLS];
 } STACK;
 
-double eval(char []);
+double eval(char *);
 void postfix(char *, char *);
 bool isoperand(char);
 bool isdigit(char);
@@ -57,7 +57,7 @@ double oper(int symb, double op1, double op2) {
     }
 }
 
-void postfix(char infix[], char postr[]) {
+void postfix(char *infix, char *postr) {
     int position, und;
     int outpos = 0;
     char topsymb = '+';
@@ -101,7 +101,7 @@ char pop(STACK *ps) {
     return ps->items[ps->top--];
 }
 
-double eval(char expr[]) {
+double eval(char *expr) {
     int c, position;
     double opnd1, opnd2, value;
     struct opdstack opndstk;
