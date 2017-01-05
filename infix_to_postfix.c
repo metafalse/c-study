@@ -80,9 +80,9 @@ void postfix(char infix[], char postr[]) {
             else
                 topsymb = pop(&opstk);
         }
-        while (!empty(&opstk))
-            postr[outpos++] = pop(&opstk);
-        postr[outpos] = '\0';
+    while (!empty(&opstk))
+        postr[outpos++] = pop(&opstk);
+    postr[outpos] = '\0';
 }
 
 bool isdigit(char symb) {
