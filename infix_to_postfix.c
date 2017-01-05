@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <math.h>
 
 #define MAXCOLS 80
@@ -18,16 +19,16 @@ typedef struct stack {
 
 double eval(char []);
 void postfix(char *, char *);
-int isoperand(char);
-int isdigit(char);
+bool isoperand(char);
+bool isdigit(char);
 void popandtest(STACK *, char *, int *);
-int empty(STACK *);
+bool empty(STACK *);
 char pop(STACK *);
 void push(STACK *, char);
-int emptyopd(OPDSTACK *);
+bool emptyopd(OPDSTACK *);
 double popopd(OPDSTACK *);
 void pushopd(OPDSTACK *, double);
-int prcd(char, char);
+bool prcd(char, char);
 double oper(int, double, double);
 
 int main() {
@@ -84,11 +85,11 @@ void postfix(char infix[], char postr[]) {
         postr[outpos] = '\0';
 }
 
-int isdigit(char symb) {
+bool isdigit(char symb) {
     return symb >= '0' && symb <= '9';
 }
 
-int empty(STACK *ps) {
+bool empty(STACK *ps) {
     return ps->top == EMPTYSTACK;
 }
 
@@ -125,7 +126,7 @@ void push(STACK *ps, char x) {
     ps->items[++(ps->top)] = x;
 }
 
-int emptyopd(OPDSTACK *ps) {
+bool emptyopd(OPDSTACK *ps) {
     return ps->top == EMPTYSTACK;
 }
 
@@ -145,7 +146,7 @@ void pushopd(OPDSTACK *ps, double x) {
     ps->items[++(ps->top)] = x;
 }
 
-int isoperand(char symb) {
+bool isoperand(char symb) {
     return symb >= '0' && symb <= '9';
 }
 
@@ -158,7 +159,7 @@ void popandtest(STACK *ps, char *px, int *pund) {
     *px = ps->items[ps->top--];
 }
 
-int prcd(char opr1, char opr2) {
+bool prcd(char opr1, char opr2) {
     switch (opr1) {
         case '(': return FALSE;
         case '+': return opr2 == ')' || opr2 == '+';
