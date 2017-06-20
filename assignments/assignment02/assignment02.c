@@ -1,9 +1,11 @@
 /******************************************************************************/
+/*                                                                            */
 /*  Topic: Loops                                                              */
 /*                                                                            */
 /*  Objective: Print the average, maximum and minimum of all inputs received  */
 /*                                                                            */
 /*  Comments: Iterate the loop 15 times                                       */
+/*                                                                            */
 /******************************************************************************/
 
 #include <stdio.h>
