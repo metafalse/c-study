@@ -19,8 +19,8 @@
 #define NUMBER_OF_SCORES 60
 #define FALSE 0
 #define TRUE 1
-#define INFILENAME "input4.doc"
-#define OUTFILENAME "output4.doc"
+#define INFILENAME "input04.doc"
+#define OUTFILENAME "output04.doc"
 
 bool isValidInput();
 void process();
