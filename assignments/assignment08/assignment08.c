@@ -18,8 +18,8 @@
 #define EMPTYSTACK -1
 #define TRUE 1
 #define FALSE 0
-#define INFILENAME "input8.doc"
-#define OUTFILENAME "output8.doc"
+#define INFILENAME "input08.doc"
+#define OUTFILENAME "output08.doc"
 
 typedef struct stack {
     int top;
