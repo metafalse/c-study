@@ -17,8 +17,8 @@
 #define DEFAULTPOS -1
 #define TRUE 1
 #define FALSE 0
-#define INFILENAME "input9.doc"
-#define OUTFILENAME "output9.doc"
+#define INFILENAME "input09.doc"
+#define OUTFILENAME "output09.doc"
 
 typedef struct queue {
     int queueelement[MAXQUEUE];
