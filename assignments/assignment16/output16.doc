@@ -1,0 +1,86 @@
+original sequence: A 2 3 4 5 6 7 8 9 0 J Q K 
+shuffle: K 
+shuffle: Q K 
+shuffle: K J Q 
+shuffle: J Q 0 K 
+shuffle: Q 0 K 9 J 
+shuffle: 0 K 9 J 8 Q 
+shuffle: K 9 J 8 Q 7 0 
+shuffle: 9 J 8 Q 7 0 6 K 
+shuffle: J 8 Q 7 0 6 K 5 9 
+shuffle: 8 Q 7 0 6 K 5 9 4 J 
+shuffle: Q 7 0 6 K 5 9 4 J 3 8 
+shuffle: 7 0 6 K 5 9 4 J 3 8 2 Q 
+shuffle: 0 6 K 5 9 4 J 3 8 2 Q A 7 
+shuffled queue: 7 A Q 2 8 3 J 4 9 5 K 6 0 
+open: A
+shuffled queue: Q 2 8 3 J 4 9 5 K 6 0 7 
+open: 2
+shuffled queue: 8 3 J 4 9 5 K 6 0 7 Q 
+open: 3
+shuffled queue: J 4 9 5 K 6 0 7 Q 8 
+open: 4
+shuffled queue: 9 5 K 6 0 7 Q 8 J 
+open: 5
+shuffled queue: K 6 0 7 Q 8 J 9 
+open: 6
+shuffled queue: 0 7 Q 8 J 9 K 
+open: 7
+shuffled queue: Q 8 J 9 K 0 
+open: 8
+shuffled queue: J 9 K 0 Q 
+open: 9
+shuffled queue: K 0 Q J 
+open: 0
+shuffled queue: Q J K 
+open: J
+shuffled queue: K Q 
+open: Q
+shuffled queue: K 
+open: K
+shuffled queue: 
+opend cards: A 2 3 4 5 6 7 8 9 0 J Q K 
+
+original sequence: Q 2 3 A 5 6 J 8 9 4 7 K 0 
+shuffle: 0 
+shuffle: K 0 
+shuffle: 0 7 K 
+shuffle: 7 K 4 0 
+shuffle: K 4 0 9 7 
+shuffle: 4 0 9 7 8 K 
+shuffle: 0 9 7 8 K J 4 
+shuffle: 9 7 8 K J 4 6 0 
+shuffle: 7 8 K J 4 6 0 5 9 
+shuffle: 8 K J 4 6 0 5 9 A 7 
+shuffle: K J 4 6 0 5 9 A 7 3 8 
+shuffle: J 4 6 0 5 9 A 7 3 8 2 K 
+shuffle: 4 6 0 5 9 A 7 3 8 2 K Q J 
+shuffled queue: J Q K 2 8 3 7 A 9 5 0 6 4 
+open: Q
+shuffled queue: K 2 8 3 7 A 9 5 0 6 4 J 
+open: 2
+shuffled queue: 8 3 7 A 9 5 0 6 4 J K 
+open: 3
+shuffled queue: 7 A 9 5 0 6 4 J K 8 
+open: A
+shuffled queue: 9 5 0 6 4 J K 8 7 
+open: 5
+shuffled queue: 0 6 4 J K 8 7 9 
+open: 6
+shuffled queue: 4 J K 8 7 9 0 
+open: J
+shuffled queue: K 8 7 9 0 4 
+open: 8
+shuffled queue: 7 9 0 4 K 
+open: 9
+shuffled queue: 0 4 K 7 
+open: 4
+shuffled queue: K 7 0 
+open: 7
+shuffled queue: 0 K 
+open: K
+shuffled queue: 0 
+open: 0
+shuffled queue: 
+opend cards: Q 2 3 A 5 6 J 8 9 4 7 K 0 
+
