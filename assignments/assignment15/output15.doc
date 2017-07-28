@@ -1,0 +1,132 @@
+Read key:74 record:460: hash key:11
+Read key:76 record:195: hash key:13
+Read key:17 record:267: hash key:8
+Read key:6 record:813: hash key:6
+Read key:15 record:882: hash key:6
+Read key:24 record:548: hash key:6
+Read key:53 record:617: hash key:8
+Read key:94 record:964: hash key:13
+Read key:3 record:364: hash key:3
+Read key:87 record:425: hash key:0
+Read key:9 record:955: hash key:9
+Read key:5 record:873: hash key:5
+Read key:46 record:948: hash key:10
+Read key:43 record:278: hash key:7
+Read key:16 record:714: hash key:7
+Read key:73 record:765: hash key:10
+Read key:13 record:358: hash key:4
+Read key:80 record:594: hash key:8
+Read key:75 record:609: hash key:12
+Read key:89 record:927: hash key:2
+Read key:79 record:121: hash key:1
+Read key:27 record:477: hash key:9
+Read key:93 record:783: hash key:12
+Read key:70 record:444: hash key:7
+Read key:77 record:101: hash key:14
+Read key:58 record:841: hash key:13
+Read key:37 record:765: hash key:10
+Read key:95 record:396: hash key:14
+Read key:97 record:892: hash key:1
+Read key:14 record:492: hash key:5
+Read key:48 record:119: hash key:12
+Read key:32 record:353: hash key:5
+Read key:78 record:587: hash key:0
+Read key:11 record:286: hash key:2
+Read key:34 record:166: hash key:7
+Read key:42 record:470: hash key:6
+Read key:36 record:735: hash key:9
+Read key:65 record:684: hash key:11
+Read key:28 record:434: hash key:10
+Read key:99 record:100: hash key:3
+Read key:8 record:109: hash key:8
+Read key:44 record:389: hash key:8
+Read key:54 record:874: hash key:9
+Read key:98 record:958: hash key:2
+Read key:66 record:568: hash key:12
+Read key:59 record:588: hash key:14
+Read key:90 record:723: hash key:9
+Read key:10 record:827: hash key:1
+Read key:69 record:182: hash key:0
+Read key:12 record:332: hash key:3
+Read key:51 record:754: hash key:6
+Read key:40 record:203: hash key:4
+Read key:85 record:710: hash key:13
+Read key:0 record:537: hash key:0
+Read key:26 record:548: hash key:8
+Read key:18 record:711: hash key:9
+Read key:62 record:379: hash key:8
+Read key:71 record:314: hash key:8
+Read key:20 record:108: hash key:2
+Read key:2 record:271: hash key:2
+Read key:92 record:706: hash key:11
+Read key:4 record:127: hash key:4
+Read key:81 record:524: hash key:9
+Read key:39 record:294: hash key:12
+Read key:22 record:314: hash key:4
+Read key:50 record:591: hash key:5
+Read key:68 record:664: hash key:14
+Read key:7 record:949: hash key:7
+Read key:1 record:275: hash key:1
+Read key:49 record:998: hash key:13
+Read key:19 record:949: hash key:10
+Read key:83 record:284: hash key:11
+Read key:96 record:388: hash key:0
+Read key:41 record:823: hash key:5
+Read key:86 record:243: hash key:14
+Read key:88 record:857: hash key:1
+Read key:60 record:412: hash key:6
+Read key:45 record:866: hash key:9
+Read key:33 record:684: hash key:6
+Read key:38 record:494: hash key:11
+Read key:29 record:199: hash key:11
+Read key:64 record:438: hash key:10
+Read key:23 record:598: hash key:5
+Read key:91 record:810: hash key:10
+Read key:52 record:876: hash key:7
+Read key:57 record:147: hash key:12
+Read key:84 record:521: hash key:12
+Read key:30 record:255: hash key:3
+Read key:61 record:361: hash key:7
+Read key:25 record:529: hash key:7
+Read key:63 record:426: hash key:9
+Read key:47 record:968: hash key:11
+Read key:67 record:557: hash key:13
+Read key:55 record:850: hash key:10
+Read key:56 record:263: hash key:11
+Read key:21 record:771: hash key:3
+Read key:72 record:441: hash key:9
+Read key:31 record:827: hash key:4
+Read key:82 record:720: hash key:10
+Read key:35 record:617: hash key:8
+
+Contents of the hash table
+hashTable[0] -> key:87 record:425 -> key:78 record:587 -> key:69 record:182 -> key:0 record:537 -> key:96 record:388 -> NULL
+
+hashTable[1] -> key:79 record:121 -> key:97 record:892 -> key:10 record:827 -> key:1 record:275 -> key:88 record:857 -> NULL
+
+hashTable[2] -> key:89 record:927 -> key:11 record:286 -> key:98 record:958 -> key:20 record:108 -> key:2 record:271 -> NULL
+
+hashTable[3] -> key:3 record:364 -> key:99 record:100 -> key:12 record:332 -> key:30 record:255 -> key:21 record:771 -> NULL
+
+hashTable[4] -> key:13 record:358 -> key:40 record:203 -> key:4 record:127 -> key:22 record:314 -> key:31 record:827 -> NULL
+
+hashTable[5] -> key:5 record:873 -> key:14 record:492 -> key:32 record:353 -> key:50 record:591 -> key:41 record:823 -> key:23 record:598 -> NULL
+
+hashTable[6] -> key:6 record:813 -> key:15 record:882 -> key:24 record:548 -> key:42 record:470 -> key:51 record:754 -> key:60 record:412 -> key:33 record:684 -> NULL
+
+hashTable[7] -> key:43 record:278 -> key:16 record:714 -> key:70 record:444 -> key:34 record:166 -> key:7 record:949 -> key:52 record:876 -> key:61 record:361 -> key:25 record:529 -> NULL
+
+hashTable[8] -> key:17 record:267 -> key:53 record:617 -> key:80 record:594 -> key:8 record:109 -> key:44 record:389 -> key:26 record:548 -> key:62 record:379 -> key:71 record:314 -> key:35 record:617 -> NULL
+
+hashTable[9] -> key:9 record:955 -> key:27 record:477 -> key:36 record:735 -> key:54 record:874 -> key:90 record:723 -> key:18 record:711 -> key:81 record:524 -> key:45 record:866 -> key:63 record:426 -> key:72 record:441 -> NULL
+
+hashTable[10] -> key:46 record:948 -> key:73 record:765 -> key:37 record:765 -> key:28 record:434 -> key:19 record:949 -> key:64 record:438 -> key:91 record:810 -> key:55 record:850 -> key:82 record:720 -> NULL
+
+hashTable[11] -> key:74 record:460 -> key:65 record:684 -> key:92 record:706 -> key:83 record:284 -> key:38 record:494 -> key:29 record:199 -> key:47 record:968 -> key:56 record:263 -> NULL
+
+hashTable[12] -> key:75 record:609 -> key:93 record:783 -> key:48 record:119 -> key:66 record:568 -> key:39 record:294 -> key:57 record:147 -> key:84 record:521 -> NULL
+
+hashTable[13] -> key:76 record:195 -> key:94 record:964 -> key:58 record:841 -> key:85 record:710 -> key:49 record:998 -> key:67 record:557 -> NULL
+
+hashTable[14] -> key:77 record:101 -> key:95 record:396 -> key:59 record:588 -> key:68 record:664 -> key:86 record:243 -> NULL
+
