@@ -1,0 +1,16 @@
+Run the program with 4 disks
+Move of disk 1 from A to B
+Move of disk 2 from A to C
+Move of disk 1 from B to C
+Move of disk 3 from A to B
+Move of disk 1 from C to A
+Move of disk 2 from C to B
+Move of disk 1 from A to B
+Final Move of disk 4 from A to C
+Move of disk 1 from B to C
+Move of disk 2 from B to A
+Move of disk 1 from C to A
+Final Move of disk 3 from B to C
+Move of disk 1 from A to B
+Final Move of disk 2 from A to C
+Final Move of disk 1 from B to C
