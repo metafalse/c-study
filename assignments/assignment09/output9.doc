@@ -1,0 +1,52 @@
+Current queue: 
+INPUT: E 25
+Inserted 25 into the queue
+Current queue: 25 
+Current queue: 25 
+INPUT: E 37
+Inserted 37 into the queue
+Current queue: 25 37 
+Current queue: 25 37 
+INPUT: E 45
+Inserted 45 into the queue
+Current queue: 25 37 45 
+Current queue: 25 37 45 
+INPUT: E 52
+Inserted 52 into the queue
+Current queue: 25 37 45 52 
+Current queue: 25 37 45 52 
+INPUT: E 98
+Inserted 98 into the queue
+Current queue: 25 37 45 52 98 
+Current queue: 25 37 45 52 98 
+INPUT: D
+Removed 25 out of the queue
+Current queue: 37 45 52 98 
+Current queue: 37 45 52 98 
+INPUT: D
+Removed 37 out of the queue
+Current queue: 45 52 98 
+Current queue: 45 52 98 
+INPUT: D
+Removed 45 out of the queue
+Current queue: 52 98 
+Current queue: 52 98 
+INPUT: E 36
+Inserted 36 into the queue
+Current queue: 52 98 36 
+Current queue: 52 98 36 
+INPUT: E 12
+Inserted 12 into the queue
+Current queue: 52 98 36 12 
+Current queue: 52 98 36 12 
+INPUT: D
+Removed 52 out of the queue
+Current queue: 98 36 12 
+Current queue: 98 36 12 
+INPUT: D
+Removed 98 out of the queue
+Current queue: 36 12 
+Current queue: 36 12 
+INPUT: E 69
+Inserted 69 into the queue
+Current queue: 36 12 69 
