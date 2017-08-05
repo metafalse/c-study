@@ -1,0 +1,62 @@
+{ is found Pushed { onto the stack
+x is found
++ is found
+( is found Pushed ( onto the stack
+y is found
+- is found
+[ is found Pushed [ onto the stack
+a is found
++ is found
+b is found
+] is found Popped [ out of the stack They matches. Correct scope.
+) is found Popped ( out of the stack They matches. Correct scope.
+* is found
+( is found Pushed ( onto the stack
+c is found
+- is found
+[ is found Pushed [ onto the stack
+( is found Pushed ( onto the stack
+d is found
++ is found
+e is found
+) is found Popped ( out of the stack They matches. Correct scope.
+] is found Popped [ out of the stack They matches. Correct scope.
++ is found
+k is found
+) is found Popped ( out of the stack They matches. Correct scope.
+} is found Popped { out of the stack They matches. Correct scope.
+/ is found
+( is found Pushed ( onto the stack
+h is found
+- is found
+( is found Pushed ( onto the stack
+j is found
+- is found
+( is found Pushed ( onto the stack
+k is found
+- is found
+[ is found Pushed [ onto the stack
+l is found
+- is found
+n is found
+] is found Popped [ out of the stack They matches. Correct scope.
+) is found Popped ( out of the stack They matches. Correct scope.
+) is found Popped ( out of the stack They matches. Correct scope.
+) is found Popped ( out of the stack They matches. Correct scope.
++ is found
+{ is found Pushed { onto the stack
+u is found
++ is found
+[ is found Pushed [ onto the stack
+m is found
+* is found
+( is found Pushed ( onto the stack
+p is found
+- is found
+q is found
+) is found Popped ( out of the stack They matches. Correct scope.
+] is found Popped [ out of the stack They matches. Correct scope.
+/ is found
+r is found
+} is found Popped { out of the stack They matches. Correct scope.
+All scopes are correct
