@@ -1,0 +1,54 @@
+  0 1 2 3
+0 * * * *
+1 * * * *
+2 * * * *
+3 * * * *
+Please enter X's move as "row column": 1 -1
+invalid input
+Please enter X's move as "row column": 4 3
+invalid input
+Please enter X's move as "row column": 0 0
+  0 1 2 3
+0 X * * *
+1 * * * *
+2 * * * *
+3 * * * *
+Please enter O's move as "row column": 0 0
+invalid input
+Please enter O's move as "row column": 3 3
+  0 1 2 3
+0 X * * *
+1 * * * *
+2 * * * *
+3 * * * O
+Please enter X's move as "row column": 0 1
+  0 1 2 3
+0 X X * *
+1 * * * *
+2 * * * *
+3 * * * O
+Please enter O's move as "row column": 3 2
+  0 1 2 3
+0 X X * *
+1 * * * *
+2 * * * *
+3 * * O O
+Please enter X's move as "row column": 0 2
+  0 1 2 3
+0 X X X *
+1 * * * *
+2 * * * *
+3 * * O O
+Please enter O's move as "row column": 3 1
+  0 1 2 3
+0 X X X *
+1 * * * *
+2 * * * *
+3 * O O O
+Please enter X's move as "row column": 0 3
+  0 1 2 3
+0 X X X X
+1 * * * *
+2 * * * *
+3 * O O O
+X is winner
